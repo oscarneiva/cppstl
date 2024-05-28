@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
+#include "Calculator.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Calculator<int> calculator;
+    calculator.add(3, 4);
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
