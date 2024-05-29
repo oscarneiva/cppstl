@@ -1,7 +1,5 @@
 #include "Calculator.h"
 
-using namespace std;
-
 template <typename t>
 class Calculator {
 public:

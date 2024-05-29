@@ -4,11 +4,11 @@
 #include <iostream>
 #include "Calculator.h"
 
-int main()
-{
-    Calculator<int> calculator;
-    calculator.add(3, 4);
+using namespace std;
 
+int main(){
+    Calculator<int> calculator;
+    cout << calculator.add(3, 4);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
