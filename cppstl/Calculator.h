@@ -1,6 +1,8 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
+#include <iostream>
+
 template <typename T>
 class Calculator {
 private:

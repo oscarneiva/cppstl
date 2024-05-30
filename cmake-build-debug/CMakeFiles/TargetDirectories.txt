@@ -1,0 +1,3 @@
+C:/Users/oscar/Desktop/cppstl/cmake-build-debug/CMakeFiles/cppstl.dir
+C:/Users/oscar/Desktop/cppstl/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/oscar/Desktop/cppstl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
