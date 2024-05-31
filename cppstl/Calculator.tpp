@@ -1,4 +1,5 @@
-// Calculator.tpp
+#ifndef CALCULATOR_TPP
+#define CALCULATOR_TPP
 
 #include "Calculator.h"
 
@@ -20,7 +21,9 @@ T Calculator<T>::mult(T a, T b) {
 template <typename T>
 T Calculator<T>::div(T a, T b) {
     if (b == 0) {
-        throw std::invalid_argument("Division by zero!");
+        throw std::invalid_argument("Division by zero is not allowed.");
     }
     return a / b;
 }
+
+#endif // CALCULATOR_TPP

@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.25"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cppstl::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cppstl-Debug-33463383108dffd202be.json",
+					"jsonFile" : "target-cppstl-Debug-843829b72674d8ce0266.json",
 					"name" : "cppstl",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/oscar/Desktop/cppstl/cmake-build-debug",
-		"source" : "C:/Users/oscar/Desktop/cppstl"
+		"build" : "/Users/oscarneiva/Desktop/cppstl/cmake-build-debug",
+		"source" : "/Users/oscarneiva/Desktop/cppstl"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 5
 	}
 }

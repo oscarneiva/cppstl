@@ -15,5 +15,7 @@ public:
     T div(T a, T b);
 };
 
+// Include the implementation file
+#include "Calculator.tpp"
 
-#endif
+#endif // CALCULATOR_H

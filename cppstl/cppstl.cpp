@@ -1,6 +1,7 @@
 // cppstl.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#include <iostream>
 #include "Calculator.h"
 
 using namespace std;
@@ -8,6 +9,7 @@ using namespace std;
 int main(){
     Calculator<int> calculator;
     cout << calculator.add(3, 4) << endl;
+    cout << "hi";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
