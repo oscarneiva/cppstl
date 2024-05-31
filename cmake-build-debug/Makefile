@@ -129,29 +129,29 @@ cppstl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/build
 .PHONY : cppstl/fast
 
-cppstl/cppstl.o: cppstl/cppstl.cpp.o
-.PHONY : cppstl/cppstl.o
+cppstl/template.o: cppstl/template.cpp.o
+.PHONY : cppstl/template.o
 
 # target to build an object file
-cppstl/cppstl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/cppstl.cpp.o
-.PHONY : cppstl/cppstl.cpp.o
+cppstl/template.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/template.cpp.o
+.PHONY : cppstl/template.cpp.o
 
-cppstl/cppstl.i: cppstl/cppstl.cpp.i
-.PHONY : cppstl/cppstl.i
+cppstl/template.i: cppstl/template.cpp.i
+.PHONY : cppstl/template.i
 
 # target to preprocess a source file
-cppstl/cppstl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/cppstl.cpp.i
-.PHONY : cppstl/cppstl.cpp.i
+cppstl/template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/template.cpp.i
+.PHONY : cppstl/template.cpp.i
 
-cppstl/cppstl.s: cppstl/cppstl.cpp.s
-.PHONY : cppstl/cppstl.s
+cppstl/template.s: cppstl/template.cpp.s
+.PHONY : cppstl/template.s
 
 # target to generate assembly for a file
-cppstl/cppstl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/cppstl.cpp.s
-.PHONY : cppstl/cppstl.cpp.s
+cppstl/template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/template.cpp.s
+.PHONY : cppstl/template.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cppstl"
-	@echo "... cppstl/cppstl.o"
-	@echo "... cppstl/cppstl.i"
-	@echo "... cppstl/cppstl.s"
+	@echo "... cppstl/template.o"
+	@echo "... cppstl/template.i"
+	@echo "... cppstl/template.s"
 .PHONY : help
 
 

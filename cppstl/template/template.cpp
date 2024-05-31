@@ -2,14 +2,14 @@
 //
 
 #include <iostream>
-#include "Calculator.h"
+#include "calculator.h"
 
 using namespace std;
 
+// Example of templates
 int main(){
-    Calculator<int> calculator;
+    calculator<int> calculator;
     cout << calculator.add(3, 4) << endl;
-    cout << "hi";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

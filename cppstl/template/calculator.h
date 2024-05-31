@@ -4,7 +4,7 @@
 #include <iostream>
 
 template <typename T>
-class Calculator {
+class calculator {
 private:
     T value;
 
@@ -16,6 +16,6 @@ public:
 };
 
 // Include the implementation file
-#include "Calculator.tpp"
+#include "calculator.tpp"
 
 #endif // CALCULATOR_H

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cppstl.dir/cppstl/cppstl.cpp.o"
-  "CMakeFiles/cppstl.dir/cppstl/cppstl.cpp.o.d"
+  "CMakeFiles/cppstl.dir/cppstl/template.cpp.o"
+  "CMakeFiles/cppstl.dir/cppstl/template.cpp.o.d"
   "cppstl"
   "cppstl.pdb"
 )
