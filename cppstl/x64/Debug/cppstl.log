@@ -1,5 +1,0 @@
-﻿  Calculator.cpp
-C:\Users\oscar\Desktop\cppstl\cppstl\Calculator.cpp(21,2): error C2953: 'Calculator': class template has already been defined
-  C:\Users\oscar\Desktop\cppstl\cppstl\Calculator.cpp(4,7):
-  see declaration of 'Calculator'
-  

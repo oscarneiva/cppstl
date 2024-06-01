@@ -1,2 +1,48 @@
-.vs
-.idea
+# Ignore Visual Studio files
+.vs/
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore Code::Blocks files
+*.layout
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/out/
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+*.msi
+*.dll
+*.so
+*.dylib
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeLists.txt.user
+
+# Ignore Makefile build files
+Makefile
+makefile
