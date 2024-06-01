@@ -1,24 +1,30 @@
 #include <iostream>
 #include <map>
 #include <string>
+#include <list>
 
 using namespace std;
 
-int main(){
-    map<string, string> myMap;
-    myMap.insert(pair<string,string>("banana","banana"));
-    myMap.insert(pair<string,string>("orange","laranja"));
-    myMap.insert(pair<string,string>("apple","maçã"));
-    myMap.insert(pair<string,string>("strawberry","morango"));
+int main() {
+    map< string, list<string> > pokedex;
 
-    myMap["banana"] = "Banana"; // Use key banana to change banana to Banana
-    myMap.erase("banana");
+    list<string> pikachuAttacks {"thunder shock", "tail whip", "quick attack"};
+    list<string> charmanderAttacks {"flamethrower", "scary face"}; // Corrected spelling to match the usual convention
+    list<string> chikoritaAttacks {"razor leaf", "poison powder"};
 
-    //myMap.clear();
+    // Corrected the keys to use consistent casing
+    pokedex.insert(pair< string, list<string> >("Pikachu", pikachuAttacks));
+    pokedex.insert(pair< string, list<string> >("Charmander", charmanderAttacks));
+    pokedex.insert(pair< string, list<string> >("Chikorita", chikoritaAttacks));
 
-    cout << "size: " << myMap.size() << endl;
-
-    for(auto pair: myMap){
-        cout << pair.first << " -  " << pair.second << endl;
+    for (auto &pair : pokedex) {
+        cout << pair.first << " - ";
+        for (auto &attack : pair.second)
+            cout << attack << ", ";
+        cout << endl;
     }
+
+    // Use std::cin.get() instead of system("pause>0") for cross-platform compatibility
+    std::cin.get();
+    return 0;
 }
