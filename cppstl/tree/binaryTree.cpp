@@ -16,6 +16,14 @@ Node* createNode(int data){
     return newNode;
 }
 
+// DFS - preorder
+void printTree(Node* root){
+    if (root == nullptr) return;
+    cout << root->data << endl;
+    printTree(root->left);
+    printTree(root->right);
+}
+
 int main(){
     // level 0
     Node* root = createNode(1);
@@ -33,4 +41,6 @@ int main(){
     // level 3
     root->left->right->left = createNode(9);
     root->right->right->right = createNode(15);
+
+    printTree(root);
 }

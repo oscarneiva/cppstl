@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(cppstl)
 
 add_executable(cppstl
-        cppstl/map/mapstl.cpp)
+        cppstl/tree/binaryTree.cpp)
