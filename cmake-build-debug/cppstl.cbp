@@ -82,13 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/oscarneiva/Desktop/cppstl/cppstl/calculator.h">
-			<Option target="cppstl"/>
-		</Unit>
-		<Unit filename="/Users/oscarneiva/Desktop/cppstl/cppstl/calculator.tpp">
-			<Option target="cppstl"/>
-		</Unit>
-		<Unit filename="/Users/oscarneiva/Desktop/cppstl/cppstl/template.cpp">
+		<Unit filename="/Users/oscarneiva/Desktop/cppstl/cppstl/map/mapstl.cpp">
 			<Option target="cppstl"/>
 		</Unit>
 		<Unit filename="/Users/oscarneiva/Desktop/cppstl/CMakeLists.txt">

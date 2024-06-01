@@ -129,29 +129,29 @@ cppstl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/build
 .PHONY : cppstl/fast
 
-cppstl/template.o: cppstl/template.cpp.o
-.PHONY : cppstl/template.o
+cppstl/map/mapstl.o: cppstl/map/mapstl.cpp.o
+.PHONY : cppstl/map/mapstl.o
 
 # target to build an object file
-cppstl/template.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/template.cpp.o
-.PHONY : cppstl/template.cpp.o
+cppstl/map/mapstl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/map/mapstl.cpp.o
+.PHONY : cppstl/map/mapstl.cpp.o
 
-cppstl/template.i: cppstl/template.cpp.i
-.PHONY : cppstl/template.i
+cppstl/map/mapstl.i: cppstl/map/mapstl.cpp.i
+.PHONY : cppstl/map/mapstl.i
 
 # target to preprocess a source file
-cppstl/template.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/template.cpp.i
-.PHONY : cppstl/template.cpp.i
+cppstl/map/mapstl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/map/mapstl.cpp.i
+.PHONY : cppstl/map/mapstl.cpp.i
 
-cppstl/template.s: cppstl/template.cpp.s
-.PHONY : cppstl/template.s
+cppstl/map/mapstl.s: cppstl/map/mapstl.cpp.s
+.PHONY : cppstl/map/mapstl.s
 
 # target to generate assembly for a file
-cppstl/template.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/template.cpp.s
-.PHONY : cppstl/template.cpp.s
+cppstl/map/mapstl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppstl.dir/build.make CMakeFiles/cppstl.dir/cppstl/map/mapstl.cpp.s
+.PHONY : cppstl/map/mapstl.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cppstl"
-	@echo "... cppstl/template.o"
-	@echo "... cppstl/template.i"
-	@echo "... cppstl/template.s"
+	@echo "... cppstl/map/mapstl.o"
+	@echo "... cppstl/map/mapstl.i"
+	@echo "... cppstl/map/mapstl.s"
 .PHONY : help
 
 

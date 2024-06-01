@@ -6,6 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(cppstl)
 
 add_executable(cppstl
-        cppstl/template/calculator.tpp
-        cppstl/template/calculator.h
-        cppstl/template/template.cpp)
+        cppstl/map/mapstl.cpp)
